@@ -1,0 +1,8 @@
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    color: Red;
+    font-size: 30px;
+    font-family: 'Germania One', cursive;
+
+}
