@@ -1,8 +1,105 @@
 body {
     background-image: url("bg.png");
-    background-size: cover;
-    color: Red;
+    background-position-x: 100px;
+    background-position-y: -30px;
+    color: red;
     font-size: 30px;
-    font-family: 'Germania One', cursive;
+    font-family: cursive;
+    background-repeat: no-repeat;
+}
 
+.jumbotron {
+    background-color:  #ffdb58;
+    border-color: #FA1F19;
+    border-style: double;
+    border-width: 5px;
+
+    border-style: solid;
+   
+}
+
+
+
+
+.character-image {
+	display: inline-block;
+  	height: 145px;
+	padding: 0px 20px 0px 20px;
+	margin: 0px 2px 0px 2px;
+    background-color:  #ffdb58;
+	border: solid;
+    border-color: #FA1F19;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.character-image p {
+	text-align: center;
+	margin: 0px 2px 0px 2px;
+}
+
+#chosen-character {
+    height: 190px;
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+
+#chosen-character h2 {
+	font-size: 2em;
+    color: red;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.chosen-character {
+	border-color: #dd48f0;
+    background-color:  #ffdb58;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#enemies-available h2 {
+	font-size: 2em;
+    color: red;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.enemy-character {
+    border-color: #FA1F19;
+ background-color:  #ffdb58;
+	margin: 30px 2px 0px 2px;
+}
+
+#fight-section h2 {
+	font-size: 2em;
+    color: #f0485b;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+#defender-section {
+    height: 210px;
+    margin-bottom: 40px;
+   
+}
+
+#defender-section h2 {
+	font-size: 2em;
+    color: #f0485b;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.defender-character {
+    border-color: #FA1F19;
+    background-color:  #ffdb58;
+ margin-bottom:90px;
+}
+
+#game-message {
+	font-size: 1.5em;
+	font-weight: bold;
+    background-color:  #ffdb58;
+    margin-top: 60px;
 }

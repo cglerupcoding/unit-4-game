@@ -4,26 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+        <!-- Added link to the jQuery Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+        <!-- Added a link to our external stylesheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+
+        <!-- linking the javascript file. -->
+        <script type="text/javascript" src = "assets/javascript/game.js"></script>
+        
     <title>Bobs Burgers RPG</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            May the Best Burger Win!
-        </header>
-   
-        <div class="row">
-            <div class="col-md-6">            
-                <div class="action">
+        <div class="container">
 
-                </div>
-        </div>
-    </div>
-</div>
+              
+                <div class="jumbotron">
+            
+                  <h1 class="text-center"><strong>Welcome To Bobs Cook Off </strong></h1>
+                  <h2 class="text-center">Choose Your Character and may the best burger win!</h2>
+            
+                </div> 
 
+                <div class="container">
+                <div class="row">
+        
+                    <!--Character Chooser-->
+                <span class="character-image available-character" id="louise-character">
+                  <p>Louise</p>
+                  <img src="./assets/images/Louise.png" alt="louise-image" id="Louise" style="width: 100px; height: 100px">
+                  <p class="health">120</p>
+                </span>
+        
+                <span class="character-image available-character" id="bob-character">
+                  <p>Bob </p>
+                  <img src="./assets/images/bob.png" alt="Bob" id="bob-image" style="width: 100px; height: 100px">
+                  <p class="health">140</p>
+                </span>
+        
+                <span class="character-image available-character" id="calvin-character">
+                  <p>Calvin</p>
+                  <img src="./assets/images/fish.png" alt="Calvin Fischoeder" id="fish-image" style="width: 100px; height: 100px">
+                  <p class="health">150</p>
+                </span>
+        
+                <span class="character-image available-character" id="jimmy-character">
+                  <p>Jimmy</p>
+                  <img src="./assets/images/jimmy.png" alt="jimmy pesto" id="jimmy-image" style="width: 100px; height: 100px">
+                  <p class="health">180</p>
+                </span>
+              </div>
+              </div>
+             </div>
+                 
+      <div class="col-lg-12" id="chosen-character">
+            <h2>Your Character</h2>
+          </div> 
+    
+         
+          <div class="col-lg-12" id="enemies-available">
+            <h2>Enemies Available To Attack</h2>
+          </div> 
+    
+          <!-- Fight section -->
+          <div class="col-lg-12" id="fight-section">
+            <h2>Fight Section</h2>
+            <button id="attack">Attack</button>
+          </div> 
+    
+          <!-- Defender section -->
+          <div class="col-lg-12" id="defender-section">
+            <h2>Defender</h2>
+          </div> 
+    
+          <!-- Game message section -->
+          <div class="col-lg-12" id="message-section">
+            <div id="game-message"></div>
+            <button id="restart">Restart</button>
+          </div> 
+    
+        </div> 
+    
+      </div> 
+    
+             
+         
+                     
+              
+                  
+    
+        <script type="text/javascript" src = "assets/javascript/game.js"></script>
 </body>
 </html>
